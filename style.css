@@ -138,6 +138,9 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+.dis{
+    text-decoration: none;
+}
 /* ----------------Services Section------------ */
 #services{
     padding: 30px 0;
