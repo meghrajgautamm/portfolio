@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/adb2eba5a1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="Images/logoe.png">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logoe.png" alt="logo" class="logoe">
+            <ul id="sidemenu"> 
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+                <h1>Hi, I'm <span>Meghraj</span> <br> Gautam from Banglore.</h1>
+        </div>
+        </div>
+    </div>
+<!-------------About ME Section--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/photo.png" alt="" class="meg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="pio">  Aim to associate with a growth-oriented organisation which offers an excellent atmosphere to prove myself by 
+                        utilising my skills into practice and profit myself with experience and valuable knowledge for the development 
+                        and growth of the organisation.</p>
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="ig">
+                            <li><span class="nice">UI/UX</span><br>Designing Web/App interfaces.</li>
+                            <li><span class="nice">Web Developer</span><br> Website Development.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul class="ig">
+                            <li><span class="nice">Unified Mentor Intern</span><br>January 2025-February 2025</li>
+                        
+                    </div>
+                 
+                 
+                    <div class="tab-contents" id="education">
+                        <ul class="ig">
+                            <li><span class="nice">2024</span><br>Diploma in Full Stack Development from Besant Technologies</li>
+                            <li><span class="nice" >2023</span><br>Bachelors in English Literature from St Ann's College</li>
+                            <li><span class="nice">2020</span><br>12th in Arts from Dronacharya Academy</li>
+                            <li><span class="nice">2018</span><br>10th (Sister Margaret Nobel School)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------Services Section--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I provide web design services that focus on aesthetics, usability, and responsive layouts for all devices.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web Development</h2>
+                    <p>"Whether you need a new website or an update to your current one, I offer web development services to meet your requirements."</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Let me help you design an app that combines beautiful visuals with an easy-to-navigate interface, tailored to your users’ needs.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------Portfolio Section---------->
+    <div id="links">
+    <div class="container">
+        <h1 class="sub-title">Links</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3> 
+                    <p>The app connects you to to myself in social media</p>
+                     <a href="https://www.instagram.com/meghraj_gautamm" target="_blank"><i class="fas fa-external-link-alt"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Music</h3> 
+                    <p>The app connects you to spotify playlist of mine.</p>
+                     <a href="https://open.spotify.com/playlist/14KJzF0ZWTaA7RA2Jue7C1?si=33e915dbc89f4b71" target="_blank"><i class="fas fa-external-link-alt"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Learn More</h3>
+                 <p>The tab takes you to learn more about websites.</p>
+               <a href="https://www.unifiedmentor.com/" target="_blank"><i class="fas fa-external-link-alt"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    </div>
+
+    <!-------------------Contact Section----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                   <p> <a href="mailto:meghrajgautam776@gmail.com" id="email"><i class="fas fa-paper-plane"></i></a>meghrajgautam776@gmail.com</p>
+                    <p> <a href="tel: +91 9387986725"><i class="fas fa-phone-square-alt"></i></a> +91 9387986725</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/61563482020199"  target="_blank"><i class="fab fa-facebook"></i></i></a>
+                        <a href="https://www.instagram.com/meghraj_gautamm" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/meghrajgautam" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://open.spotify.com/playlist/14KJzF0ZWTaA7RA2Jue7C1?si=5cdda8ee18514484" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                    <a href="Images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet"  id="myForm" onsubmit="return validateForm()">
+                        <input type="text" name="Name" placeholder="Your Name" required class="capital" id="name">
+                        <input type="email" name="Email" placeholder="Your Email" required id="email">
+                        <textarea name="Message" rows="6" placeholder="Your Message" id="message"></textarea>
+                        <button type="submit" class="btn btn2 bn">Submit</button>
+                    </form>
+                   <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Meghraj. Made with <i class="fas fa-heart"></i> by Meghraj Gautam </p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
