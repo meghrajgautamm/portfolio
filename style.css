@@ -138,7 +138,7 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-.dis{
+.contact-left,p{
     text-decoration: none;
 }
 /* ----------------Services Section------------ */
